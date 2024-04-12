@@ -13,7 +13,7 @@
     --fw-bold: 900;
 
     --clr-light: #cecbcb;
-    --clr-dark: #303030;
+    --clr-dark: #1e1e1e;
     --clr-accent: #f89ecb;
 
     --fs-h1: 3rem;
@@ -373,6 +373,8 @@ h3 { font-size: var(--fs-h3); }
 
     .my-work {
         background-color: var(--clr-dark);
+        background-image: url(../img/bg2.jpg);
+        background-size: cover;
         color: var(--clr-light);
         text-align: center;
     }
@@ -449,4 +451,3 @@ h3 { font-size: var(--fs-h3); }
         padding: .5em;
     }
 }
-
