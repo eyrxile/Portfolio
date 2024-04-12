@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maite Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="#" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburguer"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Tecnologías</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Estudios Académicos</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Proyectos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section_tittle--intro">
+                Hi, I am 
+                <p><strong>Maite Layerle</strong></p>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack Developer</p>
+            <img src="img/profile.jpg" alt="profile pic" class="intro__img">
+        </section>
+
+        <!-- Tecnologías -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Tecnologías</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Lenguajes de Programación</h3>
+                    <p>Soy competente en el desarrollo utilizando varios lenguajes de programación que abarcan diferentes áreas de la informática:
+
+                        <p><strong>JavaScript: </strong> Amplia experiencia en el desarrollo de aplicaciones web interactivas y dinámicas utilizando frameworks como React y Angularjs.</p>
+                        
+                        <p><strong>C++:</strong> Capacidad para desarrollar software de alto rendimiento y sistemas complejos, aplicando conceptos de programación orientada a objetos.</p>
+                        
+                        <p><strong>C#:</strong> Conocimiento sólido en el desarrollo de aplicaciones de escritorio, servicios web y aplicaciones empresariales en el entorno .NET.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Tecnologías Web</h3>
+                    <p>Tengo habilidades avanzadas en el desarrollo de aplicaciones y sitios web modernos, utilizando las siguientes tecnologías:</p>
+                    <p><strong>HTML y CSS:</strong> Experticia en la creación de interfaces de usuario responsivas y atractivas, aplicando las últimas técnicas de diseño web.</p>
+                    <p><strong>React y Angularjs:</strong> Experiencia en la construcción de interfaces de usuario interactivas y eficientes, optimizando el rendimiento de aplicaciones web.</p>
+                    <p><strong>Nodejs y Firebase:</strong> Competente en el desarrollo de backend y servicios web escalables, permitiendo la construcción de aplicaciones web de alta calidad y rendimiento.</p> 
+                </div>
+
+                <div class="service">
+                    <h3>Bases de Datos</h3>
+                    <p>Poseo experiencia en el diseño, implementación y mantenimiento de sistemas de bases de datos relacionales:</p>
+                    <p><strong>MySQL:</strong> Profundo conocimiento en el diseño de esquemas de bases de datos, consultas SQL avanzadas y optimización de rendimiento.</p>
+                    <p><strong>SQL Server:</strong> Experiencia en la gestión de bases de datos empresariales, incluyendo administración, mantenimiento y optimización de consultas.</p>
+                    </div>
+                </div>
+
+            </div> <!-- /service -->
+
+            <a href="#work" class="btn">Proyectos</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__tittle-about">Estudios Académicos</h2>
+            <p class="section__subtitle section__subtitle--about">Desarrolladora Full-Stack</p>
+
+            <div class="about-me__body">
+                <p><strong>Licenciatura en Informática</strong></p>
+                  <p><em>Universidad de la Empresa</em></p>
+                  <p><em>2021 - en progreso</em></p>
+                  <p>Estudios enfocados en el desarrollo de programas y aplicaciones utilizando C++, Java y MySQL.</p>
+                  <p><strong>Desarrollador Full-Stack</strong></p>
+                  <p><em>Linkedin Learning</em></p>
+                  <p><em>2023 - 2024</em></p>
+                  <p>Curso enfocado al desarollo web, front end y back end utilizando JavaScript, CSS, HTML, Node js, MySQL.</p>
+            </div>
+
+            <img src="img/profile.jpg" alt="otra foto" class="about-me__img">
+        </section>
+
+        <!-- Proyectos-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Mis Proyectos</h2> 
+            <p class="section__subtitle section__subtitle--work">Una selección de mis proyectos</p>
+
+            <div class="portfolio">
+                <!-- Portafolio Item -->
+                <a href="https://github.com/eyrxile/Taller1PrimerA" target="_blank" class="portfolio__item">
+                    <img src="img/portfolio.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portafolio Item -->
+                <a href="https://github.com/eyrxile/Taller2UDE" target="_blank" class="portfolio__item">
+                    <img src="img/portfolio.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:maitehlayerle@gmail.com" class="footer__link">maitehlayerle@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/maite-heineck-layerle/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li> <!--LinkedIn-->
+
+                <li class="social-list__item">
+                    <a class="social-list__link" h target="_blank" href="https://github.com/eyrxile">
+                        <i class="fa-brands fa-github"></i><!--Github-->
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+    </body>
+
+    <script src="js/index.js"></script>
+
+</html>
